@@ -1,12 +1,12 @@
-#RetZ..
+
 import random
 import socket
 import threading
 
 print('''DDOS TOOLS BY MNDVV''')
 
-password = input("[ + ] Password : ")
-if password == "irgy123":
+password = input("Password : ")
+if password == "MoonDev":
     print("correct password")
     time.sleep(2)
 else :
