@@ -3,6 +3,8 @@ import random
 import socket
 import threading
 
+import time
+
 print('''DDOS TOOLS BY MNDVV''')
 
 password = input("Password : ")
