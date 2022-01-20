@@ -5,6 +5,13 @@ import threading
 
 print('''DDOS TOOLS BY MNDVV''')
 
+password = input("[ + ] Password : ")
+if password == "irgy123":
+    print("correct password")
+    time.sleep(2)
+else :
+    print("Password wrong")
+    time.sleep(100000000000000000000000000000)
 ip = str(input("HOST:"))
 port = int(input("PORT:"))
 times = int(input("TIMES:"))
